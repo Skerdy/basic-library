@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00065426-3783-4b37-b33a-6d77d61ed944" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__th_co_geniustree_springdata_jpa_specification_with_projections_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/dtomanager/BaseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/dtomanager/BaseMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/dtomanager/DtoScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/dtomanager/DtoWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/paginated/BasicSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/paginated/PaginatedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/paginated/PaginatedRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/paginated/PaginatedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/paginated/PaginatedServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/exceptions/DtoValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/utils/MessageUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-components.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-library.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/auditable/Auditable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/data/entity/Auditable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/auditable/AuditableEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/data/entity/AuditableEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/base/AuditableDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/data/dto/AuditableDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/base/BaseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/data/dto/BaseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/data/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/BasicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/BasicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/BasicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/BasicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/BasicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/BasicServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/lifecycle/ServiceLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/lifecycle/ServiceLifeCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/permission/Permissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/permission/Permissions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/utility/ModelMerger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/utils/ModelMerger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/basic-components-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/auditable/Auditable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/auditable/AuditableEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/base/AuditableDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/base/BaseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/base/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/BasicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/BasicController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/BasicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/BasicService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/BasicServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/BasicServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/lifecycle/ServiceLifeCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/lifecycle/ServiceLifeCycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/permission/Permissions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/permission/Permissions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/utility/ModelMerger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Poc02jDso3IqR9dicvRE6ha9gR" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.skerdy.core.utils" />
+      <recent name="com.skerdy.core.lifecycle" />
+      <recent name="com.skerdy.core.permission" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Skerdy\Desktop\Personal P\basiclibrary\src\main\java\com\skerdy\core\basic" />
+      <recent name="C:\Users\Skerdy\Desktop\Personal P\basiclibrary\src\main\java\com\skerdy\core\basic\" />
+      <recent name="C:\Users\User\Desktop\Personal Projects\basiccomponents\src\main\java\core" />
+      <recent name="C:\Users\Skerdy\Desktop\Projects\basicomponents\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00065426-3783-4b37-b33a-6d77d61ed944" name="Default Changelist" comment="" />
+      <created>1566543662121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566543662121</updated>
+      <workItem from="1566543663444" duration="3682000" />
+      <workItem from="1566928204558" duration="3561000" />
+      <workItem from="1567013831478" duration="1637000" />
+      <workItem from="1567411629535" duration="3589000" />
+      <workItem from="1568897329034" duration="1440000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
