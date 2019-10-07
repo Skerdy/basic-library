@@ -18,7 +18,6 @@ public class BaseEntity<ID> {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private ID id;
 
-    @Column
     private Boolean deleted;
 
     public void preSave(){

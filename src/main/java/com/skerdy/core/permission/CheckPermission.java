@@ -11,6 +11,4 @@ public @interface CheckPermission {
 
     public Permissions permission() default Permissions.WRITE;
 
-
-
 }

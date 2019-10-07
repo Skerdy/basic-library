@@ -2,50 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00065426-3783-4b37-b33a-6d77d61ed944" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__th_co_geniustree_springdata_jpa_specification_with_projections_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/dtomanager/BaseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/dtomanager/BaseMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/dtomanager/DtoScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/dtomanager/DtoWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/paginated/BasicSpecification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/paginated/PaginatedController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/paginated/PaginatedRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/paginated/PaginatedService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/paginated/PaginatedServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/exceptions/DtoValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/utils/MessageUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_10_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-components.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-library.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-library.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/auditable/Auditable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/data/entity/Auditable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/auditable/AuditableEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/data/entity/AuditableEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/base/AuditableDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/data/dto/AuditableDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/base/BaseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/data/dto/BaseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/data/entity/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/BasicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/BasicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/BasicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/BasicService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/BasicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/BasicServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/lifecycle/ServiceLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/lifecycle/ServiceLifeCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/permission/Permissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/permission/Permissions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/utility/ModelMerger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/utils/ModelMerger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/basic-components-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/auditable/Auditable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/auditable/AuditableEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/base/AuditableDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/base/BaseDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/base/BaseEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/BasicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/BasicController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/BasicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/BasicService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/dtomanager/DtoScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/dtomanager/DtoScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/data/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/data/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/lifecycle/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/lifecycle/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/permission/CheckPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/permission/CheckPermission.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/BasicServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/BasicServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/lifecycle/ServiceLifeCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/lifecycle/ServiceLifeCycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/permission/Permissions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/permission/Permissions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/utility/ModelMerger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/dtomanager/DtoScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/dtomanager/DtoScanner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/data/entity/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/data/entity/BaseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/lifecycle/Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/lifecycle/Operation.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +60,7 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -134,7 +133,11 @@
       <workItem from="1566928204558" duration="3561000" />
       <workItem from="1567013831478" duration="1637000" />
       <workItem from="1567411629535" duration="3589000" />
-      <workItem from="1568897329034" duration="1440000" />
+      <workItem from="1568897329034" duration="5092000" />
+      <workItem from="1568906684024" duration="1539000" />
+      <workItem from="1568914661926" duration="7202000" />
+      <workItem from="1569311656012" duration="1037000" />
+      <workItem from="1570011698364" duration="921000" />
     </task>
     <servers />
   </component>

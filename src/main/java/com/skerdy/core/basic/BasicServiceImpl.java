@@ -39,7 +39,10 @@ public abstract class BasicServiceImpl<T extends BaseEntity, DTO, ID> implements
 
     @Override
     public Object findById(ID id) {
-        return this.modelMapper.map(repository.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Item Not Found")), getDtoClass(BaseMethods.FIND_BY_ID));
+        T entity = repository.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Item Not Found"));
+        Object dto = this.modelMapper.map(entity, getDtoClass(BaseMethods.FIND_BY_ID));
+        onPreOperation(Operation.READ_ID, entity, dto );
+        return dto;
     }
 
     @Override
@@ -47,8 +50,9 @@ public abstract class BasicServiceImpl<T extends BaseEntity, DTO, ID> implements
         T entity = this.modelMapper.map(dto, this.entityClass);
         entity.preSave();
         onPreOperation(Operation.CREATE, entity, dto);
-        Object returnDto = this.modelMapper.map(repository.save(entity), this.getDtoClass(BaseMethods.FIND_BY_ID));
-        onAfterOperation(Operation.CREATE, entity, dto);
+        entity = repository.save(entity);
+        Object returnDto = this.modelMapper.map(entity, this.getDtoClass(BaseMethods.FIND_BY_ID));
+        onAfterOperation(Operation.CREATE, entity, returnDto);
         return returnDto;
     }
 
@@ -58,7 +62,7 @@ public abstract class BasicServiceImpl<T extends BaseEntity, DTO, ID> implements
         Method getIdMethod = null;
         T result = null;
 
-        for (Method method : this.getDtoClass(BaseMethods.INPUT).getDeclaredMethods()) {
+        for (Method method : this.getDtoClass(BaseMethods.INPUT).getMethods()) {
             if (method.getName().equals("getId")) {
                 getIdMethod = method;
             }

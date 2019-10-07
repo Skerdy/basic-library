@@ -1,6 +1,8 @@
 package com.skerdy.core.basic.dtomanager;
 
 import com.skerdy.core.exceptions.DtoValidationException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider;
 import org.springframework.core.type.filter.AnnotationTypeFilter;
@@ -12,11 +14,18 @@ import java.util.*;
 @Component
 public class DtoScanner {
 
-    private final String testPackage = "com.skerdy.dtoIntegration.domain";
     private Map<Class<?>, List<DtoWrapper>> scannedDTOs;
 
-    public DtoScanner() {
+
+    private String domainPackage;
+
+    @Autowired
+    public DtoScanner(@Value("${domainPackage}") final String domainPackage) {
+        this.domainPackage = domainPackage;
         this.scannedDTOs = new HashMap<>();
+        if(domainPackage==null || domainPackage.isEmpty()){
+            System.out.println("Domain Package is invalid" + domainPackage);
+        }
         scan();
         validateDtoUsage();
     }
@@ -24,7 +33,7 @@ public class DtoScanner {
     private Set<BeanDefinition> getBeanDefinitions(Class<? extends Annotation> componentType) {
         ClassPathScanningCandidateComponentProvider scanner = new ClassPathScanningCandidateComponentProvider(false);
         scanner.addIncludeFilter(new AnnotationTypeFilter(componentType));
-        return new HashSet<>(scanner.findCandidateComponents(testPackage));
+        return new HashSet<>(scanner.findCandidateComponents(domainPackage));
     }
 
     private void scan() {
