@@ -74,7 +74,8 @@ public abstract class BasicServiceImpl<T extends BaseEntity, DTO, ID> implements
             id = getIdMethod.invoke(dto);
             T existingT = repository.findById((ID) id).orElse(null);
             assert existingT != null;
-            result = ModelMerger.mergeObjects(dto, existingT);
+            T incomingEntity = this.modelMapper.map(dto, this.entityClass);
+            result = ModelMerger.mergeObjects(incomingEntity, existingT);
             result.preSave();
             onPreOperation(Operation.UPDATE, result, dto);
             repository.save(result);
