@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00065426-3783-4b37-b33a-6d77d61ed944" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/annotations/AttachFromDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/entityattacher/EntityAttacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/data/dto/Error.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/BasicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/BasicServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/paginated/BasicSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/paginated/BasicSpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/paginated/PaginatedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/paginated/PaginatedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/paginated/PaginatedService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/paginated/PaginatedService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/paginated/PaginatedServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/basic/paginated/PaginatedServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/lifecycle/ServiceLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/lifecycle/ServiceLifeCycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/skerdy/core/utils/ModelMerger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skerdy/core/utils/ModelMerger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/BasicController.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/BasicController.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/BasicService.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/BasicService.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/BasicServiceImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/BasicServiceImpl.html" afterDir="false" />
@@ -21,11 +31,11 @@
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/dtomanager/class-use/BaseMethods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/dtomanager/class-use/BaseMethods.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/dtomanager/class-use/DtoScanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/dtomanager/class-use/DtoScanner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/dtomanager/class-use/DtoWrapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/dtomanager/class-use/DtoWrapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/dtomanager/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/dtomanager/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/dtomanager/package-frame.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/dtomanager/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/dtomanager/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/dtomanager/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/dtomanager/package-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/dtomanager/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/dtomanager/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/package-frame.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/package-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/package-use.html" afterDir="false" />
@@ -39,7 +49,7 @@
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/paginated/class-use/PaginatedRepository.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/paginated/class-use/PaginatedRepository.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/paginated/class-use/PaginatedService.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/paginated/class-use/PaginatedService.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/paginated/class-use/PaginatedServiceImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/paginated/class-use/PaginatedServiceImpl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/paginated/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/paginated/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/paginated/package-frame.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/paginated/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/paginated/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/paginated/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/paginated/package-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/paginated/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/basic/paginated/package-use.html" afterDir="false" />
@@ -47,7 +57,7 @@
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/dto/BaseDTO.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/dto/BaseDTO.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/dto/class-use/AuditableDTO.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/dto/class-use/AuditableDTO.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/dto/class-use/BaseDTO.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/dto/class-use/BaseDTO.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/dto/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/dto/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/dto/package-frame.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/dto/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/dto/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/dto/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/dto/package-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/dto/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/dto/package-use.html" afterDir="false" />
@@ -57,13 +67,13 @@
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/entity/class-use/Auditable.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/entity/class-use/Auditable.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/entity/class-use/AuditableEntity.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/entity/class-use/AuditableEntity.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/entity/class-use/BaseEntity.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/entity/class-use/BaseEntity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/entity/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/entity/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/entity/package-frame.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/entity/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/entity/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/entity/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/entity/package-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/entity/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/data/entity/package-use.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/exceptions/DtoValidationException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/exceptions/DtoValidationException.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/exceptions/class-use/DtoValidationException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/exceptions/class-use/DtoValidationException.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/exceptions/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/exceptions/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/exceptions/package-frame.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/exceptions/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/exceptions/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/exceptions/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/exceptions/package-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/exceptions/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/exceptions/package-use.html" afterDir="false" />
@@ -71,7 +81,7 @@
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/lifecycle/ServiceLifeCycle.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/lifecycle/ServiceLifeCycle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/lifecycle/class-use/Operation.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/lifecycle/class-use/Operation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/lifecycle/class-use/ServiceLifeCycle.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/lifecycle/class-use/ServiceLifeCycle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/lifecycle/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/lifecycle/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/lifecycle/package-frame.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/lifecycle/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/lifecycle/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/lifecycle/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/lifecycle/package-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/lifecycle/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/lifecycle/package-use.html" afterDir="false" />
@@ -79,7 +89,7 @@
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/permission/Permissions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/permission/Permissions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/permission/class-use/CheckPermission.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/permission/class-use/CheckPermission.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/permission/class-use/Permissions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/permission/class-use/Permissions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/permission/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/permission/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/permission/package-frame.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/permission/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/permission/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/permission/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/permission/package-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/permission/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/permission/package-use.html" afterDir="false" />
@@ -87,7 +97,7 @@
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/utils/ModelMerger.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/utils/ModelMerger.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/utils/class-use/MessageUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/utils/class-use/MessageUtils.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/utils/class-use/ModelMerger.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/utils/class-use/ModelMerger.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/utils/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/utils/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/utils/package-frame.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/utils/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/utils/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/utils/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/utils/package-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/utils/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/skerdy/core/utils/package-use.html" afterDir="false" />
@@ -96,26 +106,45 @@
       <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/serialized-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/basic-library-1.0-SNAPSHOT-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/basic-library-1.0-SNAPSHOT-javadoc.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/basic-library-1.0-SNAPSHOT-javadoc.jar.asc" beforeDir="false" afterPath="$PROJECT_DIR$/target/basic-library-1.0-SNAPSHOT-javadoc.jar.asc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/basic-library-1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/basic-library-1.0-SNAPSHOT-sources.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/basic-library-1.0-SNAPSHOT-sources.jar.asc" beforeDir="false" afterPath="$PROJECT_DIR$/target/basic-library-1.0-SNAPSHOT-sources.jar.asc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/basic-library-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/basic-library-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/basic-library-1.0-SNAPSHOT.jar.asc" beforeDir="false" afterPath="$PROJECT_DIR$/target/basic-library-1.0-SNAPSHOT.jar.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/basic-library-1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/target/basic-library-1.0-SNAPSHOT.pom" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/basic-library-1.0-SNAPSHOT.pom.asc" beforeDir="false" afterPath="$PROJECT_DIR$/target/basic-library-1.0-SNAPSHOT.pom.asc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/BasicServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/BasicServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/dtomanager/DtoScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/dtomanager/DtoScanner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/paginated/BasicSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/paginated/BasicSpecification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/paginated/PaginatedController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/paginated/PaginatedController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/paginated/PaginatedService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/paginated/PaginatedService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/paginated/PaginatedServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/basic/paginated/PaginatedServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/data/dto/AuditableDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/data/dto/AuditableDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/data/dto/BaseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/data/dto/BaseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/data/entity/Auditable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/data/entity/Auditable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/data/entity/AuditableEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/data/entity/AuditableEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/lifecycle/ServiceLifeCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/lifecycle/ServiceLifeCycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/utils/MessageUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/utils/MessageUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/skerdy/core/utils/ModelMerger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skerdy/core/utils/ModelMerger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/target/javadoc-bundle-options/package-list" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/Skerdy/basic-library/1.0-SNAPSHOT/basic-library-1.0-SNAPSHOT-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/Skerdy/basic-library/1.0-SNAPSHOT/basic-library-1.0-SNAPSHOT-javadoc.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/Skerdy/basic-library/1.0-SNAPSHOT/basic-library-1.0-SNAPSHOT-javadoc.jar.asc" beforeDir="false" afterPath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/Skerdy/basic-library/1.0-SNAPSHOT/basic-library-1.0-SNAPSHOT-javadoc.jar.asc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/Skerdy/basic-library/1.0-SNAPSHOT/basic-library-1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/Skerdy/basic-library/1.0-SNAPSHOT/basic-library-1.0-SNAPSHOT-sources.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/Skerdy/basic-library/1.0-SNAPSHOT/basic-library-1.0-SNAPSHOT-sources.jar.asc" beforeDir="false" afterPath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/Skerdy/basic-library/1.0-SNAPSHOT/basic-library-1.0-SNAPSHOT-sources.jar.asc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/Skerdy/basic-library/1.0-SNAPSHOT/basic-library-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/Skerdy/basic-library/1.0-SNAPSHOT/basic-library-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/Skerdy/basic-library/1.0-SNAPSHOT/basic-library-1.0-SNAPSHOT.jar.asc" beforeDir="false" afterPath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/Skerdy/basic-library/1.0-SNAPSHOT/basic-library-1.0-SNAPSHOT.jar.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/Skerdy/basic-library/1.0-SNAPSHOT/basic-library-1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/Skerdy/basic-library/1.0-SNAPSHOT/basic-library-1.0-SNAPSHOT.pom" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/Skerdy/basic-library/1.0-SNAPSHOT/basic-library-1.0-SNAPSHOT.pom.asc" beforeDir="false" afterPath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/Skerdy/basic-library/1.0-SNAPSHOT/basic-library-1.0-SNAPSHOT.pom.asc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/Skerdy/basic-library/1.0-SNAPSHOT/maven-metadata-nexus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/Skerdy/basic-library/1.0-SNAPSHOT/maven-metadata-nexus.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/Skerdy/basic-library/maven-metadata-nexus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/nexus-staging/deferred/com/github/Skerdy/basic-library/maven-metadata-nexus.xml" afterDir="false" />
@@ -135,6 +164,7 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -154,9 +184,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -214,6 +244,14 @@
       <workItem from="1569311656012" duration="1037000" />
       <workItem from="1570011698364" duration="921000" />
       <workItem from="1571385603497" duration="5643000" />
+      <workItem from="1571493743003" duration="8548000" />
+      <workItem from="1571523040474" duration="7527000" />
+      <workItem from="1571597104250" duration="2941000" />
+      <workItem from="1572113471622" duration="1805000" />
+      <workItem from="1572354387115" duration="1510000" />
+      <workItem from="1572949837372" duration="1236000" />
+      <workItem from="1572967306193" duration="1514000" />
+      <workItem from="1573033695650" duration="3523000" />
     </task>
     <servers />
   </component>

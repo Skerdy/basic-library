@@ -22,9 +22,10 @@ public class PaginatedController<DTO, ID, P> extends BasicController<DTO, ID> {
             @RequestParam("page") int page,
             @RequestParam("size") int size,
             @RequestParam(value = "sort", required = false) String sort,
-            @RequestParam(value = "direction", required = false) Sort.Direction direction
+            @RequestParam(value = "direction", required = false) Sort.Direction direction,
+            @RequestParam("filter") String filters
     ) {
         Sort sort2 = new Sort(direction, sort);
-        return basicService.findPaginated(PageRequest.of(page, size, sort2));
+        return basicService.findPaginated(PageRequest.of(page, size, sort2),filters);
     }
 }

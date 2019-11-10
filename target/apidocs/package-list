@@ -1,9 +1,0 @@
-com.skerdy.core.basic
-com.skerdy.core.basic.dtomanager
-com.skerdy.core.basic.paginated
-com.skerdy.core.data.dto
-com.skerdy.core.data.entity
-com.skerdy.core.exceptions
-com.skerdy.core.lifecycle
-com.skerdy.core.permission
-com.skerdy.core.utils

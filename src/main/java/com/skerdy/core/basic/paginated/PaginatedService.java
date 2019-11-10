@@ -6,5 +6,5 @@ import org.springframework.data.domain.PageRequest;
 
 
 public interface PaginatedService<DTO, P, ID> extends BasicService<DTO, ID> {
-    Page<P> findPaginated(PageRequest request);
+    Page<P> findPaginated(PageRequest request, String filters);
 }
